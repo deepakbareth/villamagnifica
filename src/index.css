@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Theme Palette - Inspired by the Villa Magnifica logo and branding */
+    --color-primary: #c59d67;        /* Earthy Luxury Brown/Gold */
+    --color-primary-hover: #b38952;  /* Slightly darker brown */
+    --color-secondary: #104c64;      /* Deep Ocean/Teal Blue */
+    --color-secondary-hover: #0d3b4e;
+    
+    /* Backgrounds & Text */
+    --color-bg-ivory: #f5efe4;       /* STAYGO Warm Sand Beige */
+    --color-bg-dark: #0f1523;        /* Sleek Slate for luxury dark sections & footer */
+    --color-text-main: #1f2937;      /* High contrast dark text */
+    --color-text-muted: #5e6b7e;     /* Slate-ish muted text */
+
+    /* Contact / Social Accents */
+    --color-accent-green: #1ebd5b;   /* Soft Green for WhatsApp link */
+    --color-accent-viber: #593cb5;   /* Purple for Viber link */
+
+    /* Typography settings - Luxury Modern Fonts */
+    --font-sans: 'Outfit', sans-serif;
+    --font-serif: 'Syne', sans-serif;
+  }
+  
+  body {
+    background-color: var(--color-bg-ivory);
+    color: var(--color-text-main);
+
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  /* Micro-animations and utility effects */
+  .transition-premium {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(197, 157, 103, 0.3);
+  }
+}
+
+/* Premium Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-ivory);
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+  border: 2px solid var(--color-bg-ivory);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
