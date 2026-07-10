@@ -35,7 +35,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-24 md:py-28 bg-[#f5efe4] select-none scroll-mt-20 overflow-hidden relative">
+    <section id="about" className="py-24 md:py-28 bg-[#f5efe4] scroll-mt-20 overflow-hidden relative">
 
       {/* Decorative sparkle in the lower left background */}
       <div className="absolute -bottom-16 left-[5%] pointer-events-none z-0 opacity-40">

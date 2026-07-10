@@ -32,7 +32,7 @@ export default function Reviews() {
   return (
     <section
       id="reviews"
-      className="py-14 md:py-8 bg-[#f5efe4] select-none scroll-mt-20 overflow-hidden relative"
+      className="py-14 md:py-8 bg-[#f5efe4] scroll-mt-20 overflow-hidden relative"
     >
       {/* Decorative background sparkle top-right */}
       <div className="absolute top-[6%] right-[4%] pointer-events-none z-0 opacity-25">

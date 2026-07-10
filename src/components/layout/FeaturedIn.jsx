@@ -24,7 +24,7 @@ export default function FeaturedIn() {
   return (
     <section
       id="featured-in"
-      className="py-20 md:py-24 bg-[#f5efe4] select-none scroll-mt-20 overflow-hidden relative"
+      className="py-20 md:py-24 bg-[#f5efe4] scroll-mt-20 overflow-hidden relative"
     >
       {/* Decorative sunburst — top right */}
       <div className="absolute top-[8%] right-[4%] pointer-events-none z-0 opacity-20">

@@ -18,7 +18,7 @@ export default function WhyGuestsLove() {
   ];
 
   return (
-    <section id="highlights" className="py-24 bg-[#f5efe4] select-none relative overflow-hidden">
+    <section id="highlights" className="py-24 bg-[#f5efe4] relative overflow-hidden">
 
       {/* Decorative sunburst vector at the bottom left */}
       <div className="absolute -bottom-10 left-[8%] pointer-events-none z-0 opacity-30">

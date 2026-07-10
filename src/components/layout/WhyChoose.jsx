@@ -63,16 +63,23 @@ export default function WhyChoose() {
   const rightIndex = (currentIndex + 1) % cards.length;
 
   return (
-    <section id="why-choose" className="py-12 bg-[#f5efe4] select-none scroll-mt-20 overflow-hidden">
+    <section id="why-choose" className="py-12 bg-[#f5efe4] scroll-mt-20 overflow-hidden">
 
       {/* Brown Rounded Container — constrained to same max-w-7xl as all other sections */}
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="bg-[#874b35] rounded-[2.5rem] py-10 px-6 md:px-12 relative shadow-2xl overflow-hidden">
 
           {/* Centered Header Block */}
-          <div className="mb-5 flex flex-col text-center">
-            <h2 className="font-sans text-2xl md:text-3xl lg:text-4xl font-bold uppercase leading-snug tracking-wide text-white">
-              Why Choose Villa Magnifica
+          <div className="mb-14 flex flex-col items-center text-center">
+
+            {/* Mixed-Typography Heading */}
+            <h2
+              className="font-sans text-3xl md:text-4xl lg:text-5xl text-white font-light tracking-widest uppercase leading-tight">
+              Why Choose <br className="" />
+              <span
+                className="font-sans text-3xl md:text-4xl lg:text-7xl text-[#f5d1b0] font-light tracking-widest uppercase leading-tight">
+                Villa Magnifica
+              </span>
             </h2>
           </div>
 
@@ -92,7 +99,7 @@ export default function WhyChoose() {
             </div>
 
             {/* CENTER CARD (Full UI) */}
-            <div className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 bg-white rounded-[1.5rem] p-4 flex flex-col shadow-2xl z-10 scale-100 transition-all duration-500">
+            <div className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 bg-[#f7dcc3] rounded-[1.5rem] p-4 flex flex-col shadow-2xl z-10 scale-100 transition-all duration-500">
 
               {/* Card Header (Avatar + Title + Ellipsis) */}
               <div className="flex items-center justify-between mb-3 pl-1 pr-2">

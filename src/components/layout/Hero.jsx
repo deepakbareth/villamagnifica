@@ -11,7 +11,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen bg-[#f5efe4] pt-24 pb-16 md:pb-24 overflow-hidden select-none flex items-center">
+    <section id="home" className="relative min-h-screen bg-[#f5efe4] pt-24 pb-16 md:pb-24 overflow-hidden flex items-center">
 
       {/* 1. Multi-color Radial Blur Background behind the main title */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[250px] md:h-[450px] bg-gradient-to-tr from-[#38bdf8]/15 via-[#fdba74]/15 to-transparent rounded-full filter blur-[80px] pointer-events-none z-0" />
@@ -41,7 +41,7 @@ export default function Hero() {
       {/* Main Layout Container */}
       {/* 1. Desktop version - visible only on large screens */}
       <div className="hidden lg:block relative z-10 max-w-7xl mx-auto w-full px-4 md:px-8">
-        
+
         {/* Subtitle */}
         <div className="text-center font-sans text-xs md:text-sm font-semibold tracking-[0.15em] text-gray-800 uppercase mb-4">
           Luxury . Privacy . Perfection
@@ -78,7 +78,7 @@ export default function Hero() {
 
             {/* Explore Button Container */}
             <button
-              onClick={handleExploreClick}
+              // onClick={handleExploreClick}
               className="px-10 py-4 bg-[#f97316] hover:bg-[#ea580c] text-white font-sans text-sm font-bold uppercase tracking-wider rounded-full transition-all duration-300 shadow-lg hover:scale-105 active:scale-95 z-20"
             >
               Explore
@@ -108,7 +108,7 @@ export default function Hero() {
 
       {/* 2. Mobile version - visible only on mobile/tablet screens */}
       <div className="lg:hidden relative z-10 w-full px-4 flex flex-col items-center text-center gap-5 mt-4">
-        
+
         {/* Subtitle */}
         <div className="font-sans text-[11px] font-bold tracking-[0.15em] text-gray-800 uppercase">
           Luxury . Privacy . Perfection

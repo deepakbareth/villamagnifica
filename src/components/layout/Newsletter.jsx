@@ -16,7 +16,7 @@ export default function Newsletter() {
   return (
     <section
       id="newsletter"
-      className="relative py-8 md:py-8 overflow-hidden select-none"
+      className="relative py-8 md:py-8 overflow-hidden "
     >
       {/* ── Background Image with blur overlay ── */}
       <div

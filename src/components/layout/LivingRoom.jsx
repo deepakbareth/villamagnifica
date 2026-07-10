@@ -13,7 +13,7 @@ export default function LivingRoom() {
   ];
 
   return (
-    <section id="living-room" className="py-24 bg-[#faf6ee]/50 select-none scroll-mt-20 overflow-hidden relative">
+    <section id="living-room" className="py-24 bg-[#faf6ee]/50  scroll-mt-20 overflow-hidden relative">
 
       {/* Decorative sparkle vector in background */}
       <div className="absolute top-[10%] right-[3%] pointer-events-none z-0 opacity-20">

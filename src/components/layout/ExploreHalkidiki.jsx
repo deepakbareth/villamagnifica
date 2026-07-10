@@ -1,7 +1,7 @@
 import React from 'react';
-import cabanaImg from '../../assets/cabana_beach.png';
-import seasonImg from '../../assets/season_beach.png';
-import xeniaImg from '../../assets/xenia_beach.png';
+import cabanaImg from '../../assets/Halkidiki1.jpg';
+import seasonImg from '../../assets/Halkidiki2.jpg';
+import xeniaImg from '../../assets/Halkidiki3.jpg';
 
 export default function ExploreHalkidiki() {
   const beachClubs = [
@@ -26,10 +26,10 @@ export default function ExploreHalkidiki() {
   ];
 
   return (
-    <section id="experiences" className="py-24 bg-[#f5efe4] select-none scroll-mt-20 overflow-hidden relative">
+    <section id="experiences" className="py-24 bg-[#f5efe4] scroll-mt-20 overflow-hidden relative">
 
       {/* Background Watermark Text for High-End Branding */}
-      <div className="absolute top-[8%] left-[-5%] text-[#eae1d0] font-sans font-black text-[12vw] leading-none uppercase tracking-widest pointer-events-none select-none opacity-40 z-0">
+      <div className="absolute top-[8%] left-[-5%] text-[#eae1d0] font-sans font-black text-[12vw] leading-none uppercase tracking-widest pointer-events-none  opacity-40 z-0">
         Halkidiki
       </div>
 
@@ -69,7 +69,7 @@ export default function ExploreHalkidiki() {
           {beachClubs.map((club, idx) => (
             <div
               key={idx}
-              className="flex flex-col rounded-[2.5rem] bg-[#faf6ee]/70 border border-white/50 shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-500 ease-out p-6 group"
+              className="flex flex-col rounded-[2.5rem] bg-[#faf6ee]/70 border border-white/50 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-500 ease-out p-6 group"
             >
               {/* Image Container with Zoom effect */}
               <div className="w-full aspect-[4/3] rounded-[2rem] overflow-hidden border border-white/40 shadow-inner relative bg-gray-100">

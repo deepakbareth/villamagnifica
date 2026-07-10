@@ -56,7 +56,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="relative overflow-hidden select-none font-sans"
+      className="relative overflow-hidden font-sans"
       style={{ background: 'linear-gradient(160deg, #f5efe4 0%, #ede3d2 60%, #e6d9c4 100%)' }}
     >
 
@@ -132,7 +132,7 @@ export default function Footer() {
             style={{ filter: 'sepia(1) saturate(0.6) brightness(0.6)' }}
           />
           <h2
-            className="font-serif font-bold leading-none tracking-tight text-[#bfa388] select-none break-words"
+            className="font-serif font-bold leading-none tracking-tight text-[#bfa388]  break-words"
             style={{ fontSize: 'clamp(1.8rem, 7vw, 7rem)' }}
           >
             VILLA MAGNIFICA
