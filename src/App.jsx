@@ -8,6 +8,7 @@ import WhyChoose from './components/layout/WhyChoose';
 import ExploreHalkidiki from './components/layout/ExploreHalkidiki';
 import Reviews from './components/layout/Reviews';
 import FeaturedIn from './components/layout/FeaturedIn';
+import Newsletter from './components/layout/Newsletter';
 import Footer from './components/layout/Footer';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <ExploreHalkidiki />
       <Reviews />
       <FeaturedIn />
+      <Newsletter />
       <Footer />
     </>
   );

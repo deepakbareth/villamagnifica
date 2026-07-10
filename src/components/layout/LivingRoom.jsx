@@ -27,8 +27,8 @@ export default function LivingRoom() {
         {/* Split Grid: Left side has images stack, Right side has description & checklist */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-20 items-center">
 
-          {/* LEFT COLUMN (cols 1 to 6): Staggered Overlapping Visual Composition */}
-          <div className="lg:col-span-6 relative w-full h-[480px] lg:h-[620px] flex items-center justify-start">
+          {/* LEFT COLUMN (cols 1 to 6): Staggered Overlapping Visual Composition — below text on mobile */}
+          <div className="lg:col-span-6 relative w-full h-[480px] lg:h-[620px] flex items-center justify-start order-2 lg:order-1">
 
             {/* Sparkle backdrop bottom left */}
             <div className="absolute -bottom-10 -left-10 pointer-events-none z-0 opacity-30">
@@ -57,8 +57,8 @@ export default function LivingRoom() {
 
           </div>
 
-          {/* RIGHT COLUMN (cols 7 to 12): Text Details */}
-          <div className="lg:col-span-6 flex flex-col gap-6">
+          {/* RIGHT COLUMN (cols 7 to 12): Text Details — above images on mobile */}
+          <div className="lg:col-span-6 flex flex-col gap-6 order-1 lg:order-2">
 
             {/* Tagline */}
             <span className="text-xs md:text-sm font-sans font-bold text-[#8c6239] tracking-widest uppercase relative pl-6 flex items-center gap-2">
