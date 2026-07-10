@@ -58,7 +58,7 @@ export default function About() {
               About Us
             </span>
 
-            <h2 className="relative z-30 font-sans text-3xl md:text-[3.6vw] lg:text-[4.2vw] font-medium uppercase leading-[1.05] tracking-normal text-gray-900 whitespace-nowrap">
+            <h2 className="relative z-30 font-sans text-3xl md:text-[3.6vw] lg:text-[3.8vw] font-medium uppercase leading-[1.05] tracking-normal text-gray-900 whitespace-nowrap">
               REFINED SANCTUARY OF PRIVACY <br />
               AND NATURAL BEAUTY
             </h2>

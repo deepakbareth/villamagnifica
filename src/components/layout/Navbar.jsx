@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-gray-200/40  ${scrolled ? 'bg-[#f5efe4]/75 backdrop-blur-md py-3 shadow-sm' : 'bg-transparent py-5'
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-gray-200/40  ${scrolled ? 'bg-[#f5efe4]/75 backdrop-blur-md py-1 shadow-sm' : 'bg-transparent py-1'
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center">
@@ -41,7 +41,7 @@ export default function Navbar() {
           <img
             src={logoImg}
             alt="Villa Magnifica Logo"
-            className="h-10 md:h-12 w-auto object-contain transition-all duration-300 group-hover:scale-105"
+            className="h-16 md:h-20 w-auto object-contain transition-all duration-300 group-hover:scale-105"
           />
         </a>
 
