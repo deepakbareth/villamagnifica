@@ -6,6 +6,8 @@ import LivingRoom from './components/layout/LivingRoom';
 import WhyGuestsLove from './components/layout/WhyGuestsLove';
 import WhyChoose from './components/layout/WhyChoose';
 import ExploreHalkidiki from './components/layout/ExploreHalkidiki';
+import Reviews from './components/layout/Reviews';
+import FeaturedIn from './components/layout/FeaturedIn';
 import Footer from './components/layout/Footer';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <WhyGuestsLove />
       <WhyChoose />
       <ExploreHalkidiki />
+      <Reviews />
+      <FeaturedIn />
       <Footer />
     </>
   );

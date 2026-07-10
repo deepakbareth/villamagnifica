@@ -65,7 +65,7 @@ export default function ExploreHalkidiki() {
         </div>
 
         {/* Dynamic Card Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-stretch pb-5">
           {beachClubs.map((club, idx) => (
             <div
               key={idx}
