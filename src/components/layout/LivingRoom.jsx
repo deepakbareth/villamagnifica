@@ -1,6 +1,6 @@
 import React from 'react';
-import livingRoomImg from '../../assets/living_room.png';
-import balconyImg from '../../assets/about.jpg';
+import livingRoomImg from '../../assets/living2.jpg';
+import balconyImg from '../../assets/living1.jpg';
 
 export default function LivingRoom() {
   const checklist = [

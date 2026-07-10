@@ -1,6 +1,6 @@
 import React from 'react';
-import aboutImg from '../../assets/about.jpg';
-import heroImg from '../../assets/hero.png';
+import aboutImg from '../../assets/about2.jpg';
+import heroImg from '../../assets/about1.jpg';
 
 export default function About() {
   const items = [
@@ -51,7 +51,7 @@ export default function About() {
 
           {/* Left Column: Heading, Intro, and Amenities */}
           <div className="lg:col-span-6 flex flex-col gap-6">
-            
+
             {/* Section Start Indicator */}
             <span className="text-xs md:text-sm font-sans font-bold text-[#8c6239] tracking-widest uppercase relative pl-6 flex items-center gap-2">
               <span className="absolute left-0 w-4 h-[1.5px] bg-[#8c6239]" />

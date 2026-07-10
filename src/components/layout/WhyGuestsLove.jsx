@@ -1,7 +1,7 @@
 import React from 'react';
 import poolImg from '../../assets/hero2.jpg';
-import aboutImg from '../../assets/about.jpg';
-import heroImg from '../../assets/hero.png';
+import aboutImg from '../../assets/hilight.jpg';
+import heroImg from '../../assets/hilight2.jpg';
 
 export default function WhyGuestsLove() {
   const checklist = [
