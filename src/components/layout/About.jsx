@@ -1,6 +1,6 @@
 import React from 'react';
-import aboutImg from '../../assets/about2.jpg';
-import heroImg from '../../assets/about1.jpg';
+import aboutImg from '../../assets/about1.jpg';
+import heroImg from '../../assets/about3.jpg';
 
 export default function About() {
   const items = [

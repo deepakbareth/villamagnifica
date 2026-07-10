@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Home, Compass, Waves, MapPin, Sparkles, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import heroImg from '../../assets/hero.png';
-import aboutImg from '../../assets/about.jpg';
-import poolImg from '../../assets/hero2.jpg';
+import aboutImg from '../../assets/choos3.jpg';
+import poolImg from '../../assets/choos2.jpg';
 import locationImg from '../../assets/location.jpg';
-import comfortImg from '../../assets/modern_comfort.png';
+import comfortImg from '../../assets/choos1.jpg';
 
 export default function WhyChoose() {
   const cards = [
